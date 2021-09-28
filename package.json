@@ -8,11 +8,14 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "clean": "cd android && gradlew clean && cd .."
+    "clean": "cd android && gradlew clean && cd ..",
+    "module": "react-native new-module",
+    "uninstall": "adb uninstall com.rn_headlessjs"
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.65.1"
+    "react-native": "0.65.1",
+    "react-native-create-bridge": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
